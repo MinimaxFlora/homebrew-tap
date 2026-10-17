@@ -1,11 +1,11 @@
 cask "miniclash" do
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     arch arm: "arm64", intel: "amd64"
 
-    sha256 arm:   "6a4f1b33f0ba52e21198a0291c5a36462abf2e9953fdc4a6f5a3c9b953531667",
-           intel: "e5f0bfd671e6e05fa677ff83d04c9a4b34a7cdbcd9188aebb907cb4558f48473"
+    sha256 arm:   "97411a57629cdd941be264d477ee9806a6c9bcad5106934f0c2ff89d15e17d6a",
+           intel: "883790edc8f340f995ae4159fb3e281abdaf6457e892989f6da36cdf575ef575"
 
     url "https://github.com/MinimaxFlora/MiniClash/releases/download/v#{version}/MiniClash-#{version}-macos-#{arch}.dmg"
   end
